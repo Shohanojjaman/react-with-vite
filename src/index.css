@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    .box {
+        @apply p-5 border-2 border-purple-800 rounded-lg my-4;
+    }
+}
